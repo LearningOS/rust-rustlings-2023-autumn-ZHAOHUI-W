@@ -13,9 +13,19 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
-// Put your function here!
+
+fn calculate_price_of_apples(apples:i32) -> i32{
+    if apples<=40 {
+        // let price = 2;
+         apples*2
+    }
+    else 
+    {
+        // let price = 1;
+         apples*1
+    }
+}// Put your function here!
 // fn calculate_price_of_apples {
 
 // Don't modify this function!
